@@ -16,13 +16,7 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
-## Overview
-
 ### The challenge
-
-Users should be able to:
 
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
@@ -47,14 +41,13 @@ Users should be able to:
 - Mobile-first workflow
 - JavScript
 
-
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+This is my first time building a hamburger nav, using JS. Also, the 'inset' property in CCS
 
-To see how you can add code snippets, see below:
 
 ```html
+.proud-of-this-css {
 <nav>
   <ul id="primary-navigation" data-visible="false" 
   class="primary-navigation flex">
@@ -85,7 +78,9 @@ To see how you can add code snippets, see below:
     </li>
   </ul>
 </nav>
+}
 ```
+
 ```css
 .proud-of-this-css {
   // MEDIA 1 //
@@ -137,6 +132,7 @@ To see how you can add code snippets, see below:
 }
 }
 ```
+
 ```js
 const primaryNav = document.querySelector('.primary-navigation');
 const navToggle = document.querySelector('.mobile-nav-toggle'); 
@@ -153,7 +149,6 @@ if (visibility === "false") {
 });
 ```
 
-
 ### Continued development
 
 I plan to get back to doing the challenges on the Frontend Mentor Website, such as the exercises in the book by @skilldrick, 'Java Script for Kids.' As long as for the former, I plan to focus on more projects similar to this, as they'll allow me to practice building responsive hamburger menus. 
@@ -165,7 +160,6 @@ I plan to get back to doing the challenges on the Frontend Mentor Website, such 
 
 - Website - [YouTube.com/@potbtech]
 - Frontend Mentor - [@POTB]
-
  
 ## Acknowledgments
 
