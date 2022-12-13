@@ -202,7 +202,7 @@ body {
           display: block; 
           position: absolute; 
           background-color: transparent; 
-          background-image: url(/assets/images/icon-menu.svg);
+          background-image: url(../assets/images/icon-menu.svg);
           width: 2rem;
           aspect-ratio: 1;
           top: 2rem;
@@ -212,7 +212,7 @@ body {
           border: 0;
         }
         .mobile-nav-toggle[aria-expanded="true"] {
-          background-image: url(/assets/images/icon-menu-close.svg);
+          background-image: url(../assets/images/icon-menu-close.svg);
         }
           nav {
             .primary-navigation {
