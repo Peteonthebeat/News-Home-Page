@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Homepage Frontend Mentor</title>
+    <link rel="stylesheet" href="/styles/styles.css" />
+   
+  </head>
+  <body>
+    <div class="container">
+      <!-- HEADER AND STUFF -->
+      <header>
+        <div class="logo-div">
+          <a href="#" target="_blank">
+            <img src="/assets/images/logo.svg" alt="logo"
+          /></a>
+        </div>
+        <!-- HAMBURGER AND STUFF -->
+ 
+        <!-- ACTUAL NAV BUTTON -->
+<button class="mobile-nav-toggle" 
+aria-controls="primary-navigation" 
+aria-expanded="false">
+  <span class="sr-only">Menu</span>
+</button>
+
+        
+        <!-- ACTUAL NAV -->
+<nav>
+  <ul id="primary-navigation" data-visible="false" 
+  class="primary-navigation flex">
+    <li class="active">
+      <a href="#">
+        Home
+      </a>
+    </li>
+    <li class="active">
+      <a href="#">
+       New
+      </a>
+    </li>
+    <li class="active">
+      <a href="#">
+       Popular
+      </a>
+    </li>
+    <li class="active">
+      <a href="#">
+        Trending
+      </a>
+    </li>
+    <li class="active">
+      <a href="#">
+        Categories
+      </a>
+    </li>
+  </ul>
+</nav>
+      </header>
+
+
+ <!-- MAIN AND STUFF -->
+<main>
+  <section class="one">
+    <picture>
+      <source
+        srcset="/assets/images/image-web-3-desktop.jpg"
+        media="(min-width: 992px)"
+      />
+      <img src="/assets/images/image-web-3-mobile.jpg" alt="" />
+    </picture>
+    <div class="one-content">
+      <h1 class="title">The Bright Future of Web 3.0?</h1>
+      <div class="button-div">
+        <p class="text">
+          We dive into the next evolution of the web that claims to put
+          the power of the platforms back into the hands of the people.
+          But is it really fulfilling its promise?
+        </p>
+        <a onclick="index.html" class="button">READ MORE</a>
+      </div>
+    </div>
+  </section>
+
+  <!--SIDE BAR-->
+  <aside class="side-bar">
+    <h2 class="aside-title">New</h2>
+    <div class="new-item cars">
+      <h3>Hydrogen VS Electric Cars</h3>
+      <p class="text aside-description">
+        Will hydrogen-fueled cars ever catch up to EVs?
+      </p>
+    </div>
+    <div class="new-item artistry">
+      <h3>
+        The Downsides of AI Artistry
+      </h3>
+      <p class="text aside-description">
+        What are the possible adverse effects of on-demand AI image
+        generation?
+      </p>
+    </div>
+    <div class="new-item vc">
+      <h3>Is VC Funding Drying Up?</h3>
+      <p class="text aside-description">
+        Private funding by VC firms is down 50% YOY. We take a look at
+        what that means
+      </p>
+    </div>
+  </aside>
+</main>
+
+ <!-- MAIN AND STUFF -->
+      <footer>
+        <ul class="ul-123">
+          <li>
+            <img src="/assets/images/image-retro-pcs.jpg" alt="retro-pcs" />
+            <span>
+              <h4>01</h4>
+              <h5>Reviving Retro PCs</h5>
+              <p>What happens when old PCs are given modern upgrades?</p>
+            </span>
+          </li>
+
+          <li>
+            <img src="/assets/images/image-top-laptops.jpg" alt="top-laptops" />
+            <span>
+              <h4>02</h4>
+              <h5>Top 10 Laptops of 2022</h5>
+              <p>Our best picks for various needs and budgets.</p>
+            </span>
+          </li>
+
+          <li>
+            <img
+              src="/assets/images/image-gaming-growth.jpg"
+              alt="gaming-growth"
+            />
+            <span>
+              <h4>03</h4>
+              <h5>The Growth of Gaming</h5>
+              <p>How the pandemic has sparked fresh opportunities.</p>
+            </span>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    <script src="/script/script.js"></script>
+  </body>
+</html>
